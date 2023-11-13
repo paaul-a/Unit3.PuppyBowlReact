@@ -1,0 +1,25 @@
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.puppies-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.puppies-container > li {
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 4%;
+  list-style: none;
+}
+
+.puppies-container > li > img {
+  max-width: 300px;
+}
+
